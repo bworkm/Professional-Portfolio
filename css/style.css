@@ -1,0 +1,11 @@
+* {
+  border: 1px solid black;
+}
+
+header {
+  text-align: right;
+}
+
+header img {
+  margin-right: 2em;
+}
