@@ -1,11 +1,31 @@
-* {
-  border: 1px solid black;
+#slideshow {
+  min-width: 480px;
 }
-
 header {
   text-align: right;
+  padding: 10px;
 }
-
 header img {
   margin-right: 2em;
+}
+#projectListNav li.titlePage {
+  height: 600px;
+}
+.name {
+  font-family: cursive;
+  font-size: 3em;
+  text-align: center;
+  padding: 15% 0;
+}
+.desc {
+  font-size: 20px;
+  text-align: center;
+}
+#projectListNav li {
+  height: 200px;
+  display: block;
+  border: 1px solid black;
+}
+#projectListNav li.template {
+  display: none;
 }
