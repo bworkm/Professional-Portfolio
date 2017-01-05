@@ -13,7 +13,7 @@ Project.prototype.toHtml = function() {
 
   $newProjectItem.attr('data-category', this.category);
   $newProjectItem.find('h1').text(this.title);
-  $newProjectItem.find('a').text(this.authorUrl);
+  $newProjectItem.find('a').text(this.authorUrl).attr('href', this.authorUrl);
   $newProjectItem.find('article-body').html(this.body);
   $newProjectItem.find('time')
                  .attr('datetime', this.publishedOn)
