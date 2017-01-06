@@ -11,13 +11,13 @@ var projectList = [
     category:     'Survey',
     authorUrl:    'https://bworkm.github.io/Bus_Mall/',
     publishedOn:  '19-Dec-2016',
-    body:         '<p>This is the fictional BusMall survey as a class project for Code Fellows 201.</p>'
+    body:         '<p><img src="../images/busmall_scrn.png">This is the fictional BusMall survey as a class project for Code Fellows 201.</p>'
   },
   {
     title:        'About Brian',
     category:     'Games',
     authorUrl:    'https://bworkm.github.io/about_me/',
     publishedOn:  '02-Dec-2016',
-    body:         '<p>This is a game I created with questions about me.  Play it a few times and you may learn something!</p>'
+    body:         '<p><img src="../images/aboutme_scrn.png">This is a game I created with questions about me.  Play it a few times and you may learn something!</p>'
   }
 ]
