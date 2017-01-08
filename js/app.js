@@ -41,5 +41,5 @@ projectList.forEach(function(projectListItem) {
 });
 
 allProjects.forEach(function(a){
-  $('#slideshow').append(a.toHtml());
+  $('#fullpage').append(a.toHtml());
 });
