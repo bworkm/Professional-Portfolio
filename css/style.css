@@ -35,7 +35,7 @@ header img {
   overflow: hidden;
 }
 .article-body img {
-  display: flex;
+  display: block;
 }
 h1 {
   font-size: 3.157em;
@@ -55,4 +55,18 @@ h4, .article-body, time {
 }
 #menu {
   display: none;
+}
+.battleship {
+  background-image: url('../images/battleship_scrn2.png');
+  background-repeat: no-repeat;
+  /*width: 100vw;
+  height: 100vh;*/
+}
+.busmall {
+  background-image: url('../images/busmall_scrn.png');
+  background-repeat: no-repeat;
+}
+.aboutme {
+  background-image: url('../images/aboutme_scrn.png');
+  background-repeat: no-repeat;
 }
