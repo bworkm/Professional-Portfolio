@@ -36,6 +36,21 @@ Project.prototype.toHtml = function() {
   return templateRender(this);
 }
 
+function getData() {
+  if (localStorage.portfolioData) {
+    console.log('found data in localStorage');
+    // load from local storage
+  } else {
+    // read from file
+    console.log('data not found in localStorage');
+    var temp = $.getJSON('../data/projects.old.json')
+    console.log('temp:', temp);
+    localStorage.setItem('portfolioData', JSON.stringify(temp));
+    console.log(JSON.stringify(temp));
+    // write to local storage
+  }
+}
+
 projectList.forEach(function(projectListItem) {
   allProjects.push(new Project(projectListItem));
 });
